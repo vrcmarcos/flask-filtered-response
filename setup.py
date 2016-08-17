@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='Flask-Filtered-Response',
-    version='1.0.0',
-    url='https://github.com/vrcmarcos/flask-paginated-response',
+    version='1.0.1',
+    url='https://github.com/vrcmarcos/flask-filtered-response',
     license='MIT',
     author='Marcos Cardoso',
     author_email='vrcmarcos@gmail.com',
-    description='Response maker for Flask with RFC Standards such as Link Headers',
+    description='Add filter capability to JSON responses',
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
