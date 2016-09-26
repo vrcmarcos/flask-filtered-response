@@ -51,3 +51,7 @@ class TestPaginatedResponse(TestCase):
                 'test_string': 'Yo!',
             },
         ], response_list)
+
+    def test_should_return_empty_response_when_filter_empty_response(self):
+        response = self.test_client.get('/filtered/empty_response?fields=test')
+        self.assertEqual('', response.data)

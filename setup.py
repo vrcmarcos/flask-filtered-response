@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Flask-Filtered-Response',
-    version='1.0.1',
+    version='1.0.2',
     url='https://github.com/vrcmarcos/flask-filtered-response',
     license='MIT',
     author='Marcos Cardoso',

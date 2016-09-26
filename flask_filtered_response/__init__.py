@@ -11,7 +11,7 @@ def filtered(f):
     def decorated(*args, **kwargs):
         response = f(*args, **kwargs)
         if request.method == 'GET':
-            if 'fields' in request.args:
+            if response.data and 'fields' in request.args:
                 required_fields = request.args.get('fields').split(',')
                 response_obj = json.loads(response.data)
 

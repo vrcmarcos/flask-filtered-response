@@ -33,3 +33,9 @@ def multiple_nodes():
         },
     ]
     return Response(json.dumps(response_list))
+
+
+@app.route('/filtered/empty_response')
+@filtered
+def empty_response():
+    return Response()

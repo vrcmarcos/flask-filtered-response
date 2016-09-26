@@ -46,6 +46,9 @@ You can filter for multiple fields using **, (comma)**. Nested fields filtering 
 
 ## Changelog
 
+#### 1.0.2:
+- **@filtered**: Fixed when response data is None or Empty
+
 #### 1.0.1:
 - **setup.py**: Fixed description and URL
 
